@@ -22,3 +22,13 @@ De plus, un paradigme de programmation très important en PHP est la _programmat
 ### En pratique
 
 Après une petite introduction _pseudo-théorique_, nous nous lancerons dans la création d'un petit serveur web relativement simple en PHP.
+
+Pour faciliter le développement de cette application, je vous invite à récupérer ce template de dossier utilisant _Docker_ pour avoir un environnement de développement similaire pour tout le monde. Les commandes à retenir lors de votre travail sont :
+- Pour lancer le server, placez-vous au même niveau que le fichier _docker-compose_ dans le terminal et lancez :
+> docker-compose up --build
+- Pour fermer vos containers lancez la commande suivante :
+> docker-compose down
+
+Vous pourrez ensuite accéder à votre serveur sur le port 80 de votre ordinateur (il sera peut-être nécessaire de stopper Apache et mysql le temps du développement) et _phpmyadmin_ sera accessible sur le port 8080. Les identifiants utilisés sont _admin_ et _admin_.
+
+Bien entendu, il est nécessaire d'avoir installé _docker_ et _docker-compose_ sur votre ordinateur.
