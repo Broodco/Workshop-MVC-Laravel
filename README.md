@@ -12,4 +12,8 @@ Les prérequis sont :
 
 Rendez-vous dans les différents dossiers de ce repo pour en savoir plus !
 
-(PS: Si vous commencez le workshop, je vous conseille de suivre le cheminement du workshop via les branches)
+(PS: Si vous commencez le workshop, je vous conseille de suivre le cheminement du workshop via les branches :
+1. MVC/blank
+2. MVC/complete
+3. Laravel/blank
+4. Laravel/steps 1 to 6)
