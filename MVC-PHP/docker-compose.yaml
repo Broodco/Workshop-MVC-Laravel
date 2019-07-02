@@ -12,6 +12,11 @@ services:
       - db
     volumes:
       - ./app:/var/www/html/
+    environment:
+      DB_DATABASE: database
+      DB_HOST : db
+      DB_USER: admin
+      DB_PASSWORD: pass
     networks:
       - php-network
 

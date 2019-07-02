@@ -2,11 +2,12 @@
 
 namespace App\Models;
 
-class Manager 
+class Connect 
 {
     protected function DBConnect()
     {
-        $database = new \PDO('mysql:host=localhost;dbname=database;charset=utf8','admin','pass',
+        $dns = "mysql:host=".getenv('DB_HOST')."; dbname=".getenv('DB_DATABASE');
+        $database = new \PDO($dns,getenv('DB_USER'),getenv('DB_PASSWORD'),
         array(\PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION));
         return $database;
     }
