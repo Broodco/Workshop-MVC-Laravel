@@ -2,13 +2,19 @@
 
 ## Partie 2 - Laravel
 
+---
+
 ![Logo Laravel](https://www.ladybirdweb.com/wp-content/uploads/2016/03/laravel-1.png)
+
+---
 
 ### Qu'est-ce que Laravel?
 
 **Laravel** est un framework open-source écrit en PHP respectant le modèle _MVC_ et entièrement développé en _POO (programmation orientée object)_.
 
 Laravel est un framework complet, qui utilise une grande gamme de composants qui gèrent chacun une fonctionalité. Le créateur de Laravel, _Taylor Otwel_, a par exemple utilisé le système de routage de _Symphony_, l'envoie de mails de _SwiftMailer_, etc. Bien entendu, tout ne vient de pas de frameworks externes. De nombreux composants sont également créés pour Laravel.
+
+---
 
 ### L'objectif de ce workshop
 
@@ -21,6 +27,8 @@ Ce workshop fait office d'_introduction_ à Laravel et à ses concepts clés, no
 - Les Middlewares
 
 Le but ici n'est pas de voir de manière exhaustive le fonctionnement de Laravel (ce serait beaucoup trop compliqué, et surtout je ne suis pas capable de l'expliquer) mais de comprendre certains concepts et de les mettre en place.
+
+---
 
 ### Installation
 
