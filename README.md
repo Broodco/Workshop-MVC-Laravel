@@ -11,3 +11,5 @@ Les prérequis sont :
 - _docker_ et _docker-compose_ installés sur votre ordinateur
 
 Rendez-vous dans les différents dossiers de ce repo pour en savoir plus !
+
+(PS: Si vous commencez le workshop, je vous conseille de suivre le cheminement du workshop via les branches)
