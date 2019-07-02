@@ -17,4 +17,24 @@ class ProjectController extends Controller
 
         return view('projects.index', compact('projects'));
     }
+
+    public function create()
+    {
+        return view('projects.create');
+    }
+
+    public function store()
+    {
+        // Pour montrer un json des données envoyées par le formulaire
+        // return request()->all();
+
+        $project = new Project();
+
+        $project->title = request()->title;
+        $project->description = request()-> description;
+
+        $project->save();
+
+        return redirect('/projects');
+    }
 }
