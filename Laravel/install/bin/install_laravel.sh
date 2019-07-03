@@ -1,3 +1,3 @@
 #!/bin/bash
 
-compose global require laravel/installer
+composer global require laravel/installer
